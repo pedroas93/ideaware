@@ -80,7 +80,7 @@ class StepsView extends Component {
     </div>
   );
   render() {
-    if(this.props.feedUrl !== "" && this.props.postsNumber !== 0 && this.props.updateInterval !== 0 && this.props.searchBool === true){
+    if(this.props.searchBool){
       return this.element();
     }else{
       return null
