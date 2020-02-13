@@ -1,0 +1,10 @@
+//bootstrap
+@import "bootstrap/bootstrap-reboot.css";
+@import "bootstrap/bootstrap-grid.css";
+@import "bootstrap/bootstrap.css";
+
+
+//APP STYLES files 
+@import "SharedStyles/variables";
+@import "PublicStyles/landing";
+@import "PublicStyles/login-register";

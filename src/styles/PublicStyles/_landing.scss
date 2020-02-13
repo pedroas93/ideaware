@@ -1,0 +1,28 @@
+//landing styles
+
+body, html {
+  font-family: 'Quicksand', sans-serif;
+  color: $FontBlack;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $TitleBlack;
+  font-weight: 500;
+}
+
+a {
+  color: $AlkRed;
+  transition: all 0.5s ease;
+
+  &:hover, &:focus, &:active {
+    color: rgba($AlkRed, 0.7);
+  }
+}
+
+.modal-input {
+  margin-left: 22px;
+}

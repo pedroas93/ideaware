@@ -1,0 +1,27 @@
+.container-fluid-ak {
+  @extend .container-fluid;
+  @media (min-width: 576px) {
+    padding: 0 10% 0 10% !important;
+  }
+}
+
+.square {
+  width: 100%;
+  padding-bottom: 80%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  position: relative;
+  margin: 15px 0 15px 0;
+}
+
+.title-info-module {
+  text-align: right;
+  background: yellow;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  bottom: -3%;
+  margin: 5px 0 5px 0;
+  font-size: 3vw;
+}
